@@ -1,0 +1,168 @@
+*{
+    margin: 0px !important;
+box-sizing: border-box;
+}
+
+
+/* first section */
+li a:hover{
+color: #E61414 !important;
+
+}
+ .home h2{
+    font-family: 'gloria';
+ }
+button {
+    
+    color: white;
+    width: fit-content !important;
+   height: 40px;
+    
+    border-radius:  0px 50px 50px 50px  ;
+   
+}
+.navbar{
+    background-color: #eeeeee;
+}
+header{
+    background-color: #eeeeee;
+}
+@font-face{
+   font-family: "gloria";
+   src: url(./GloriaHallelujah-Regular.ttf);
+}
+/* chesfs************** */
+h3{
+    font-family: 'gloria';
+ }
+ h1::selection ,h2::selection ,h3::selection  , a::selection ,span::selection ,h4::selection ,p::selection{
+    color: white ;
+    background-color: #E61414 !important;
+ }
+ .chef{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+ .chef:hover{
+    transform: scale(1.1 ,1.1  );
+    -webkit-transform: scale(1.1 ,1.1  );
+    -moz-transform: scale(1.1 ,1.1  );
+    -ms-transform: scale(1.1 ,1.1  );
+    -o-transform: scale(1.1 ,1.1  );
+}
+.socials{
+    width: 10%;
+    top: 10px;
+    left: 100%;
+    transition: 0.5s all ;
+    -webkit-transition: 0.5s all ;
+    -moz-transition: 0.5s all ;
+    -ms-transition: 0.5s all ;
+    -o-transition: 0.5s all ;
+}
+ .chefImg:hover .socials{
+    top: 10px;
+    left: 77%;
+
+}
+ /*    contac*** */
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.mybg{
+    background-color: #eeeeee9c;
+}
+.mycontrol{
+    height: 40px;
+}
+.mycontrol:focus{
+    border-color:#E51414 !important;
+    box-shadow:0 0 0 .25rem rgba(240, 49, 19, 0.927)
+}
+.contactbg{
+    background-color:#FFFFFF;
+}
+
+.formbtn{
+    width: 100px;
+    height: 40px;
+ 
+}
+
+/* gallery******************************* */
+
+.meallayer p{
+    font-weight: bold;
+}
+.meallayer{
+    transition: 0.5s all;
+    left: 100%;
+    top: 0%;
+    background-color:#9c979752;
+
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.meal img{
+    border: #fff solid 4px;
+}
+.meal:hover .meallayer{
+    left: 0%;
+}
+
+/* footer* */
+
+footer button{
+    width: fit-content !important;
+}
+.toptitle img{
+    width:60px ;
+    height: 60px;
+
+}
+footer h3{
+   font-family: unset;
+}
+footer i{
+color: white;}
+footer >*{
+    color: white;
+}
+footer{
+    background-image: url(../images/360_F_130414382_O4tDxNpAVIBnCwOzI6YT3fiPSplEHbLW.jpg);
+    background-size: 100% 100%;
+}
+.list{
+    width: 45%;
+}
+.list li::selection{
+    background-color:#E61414;
+}
+.list li:hover{
+    background-color: rgba(207, 250, 250, 0.644);
+    transform: translateX(8px);
+    -webkit-transform: translateX(8px);
+    -moz-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    -o-transform: translateX(8px);
+}
+.gallery{
+    background-color: #eeeeee;
+}
+
+
+
+
+
+
+
+
+
+
